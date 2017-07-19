@@ -1,0 +1,198 @@
+#import turtle
+
+
+#t = turtle.Turtle()
+
+
+
+
+
+t.home()
+
+
+t.clear()
+
+
+
+
+
+for i in range(4):
+
+
+  t.forward(200)
+
+
+  t.left(90)
+
+
+
+
+
+print('hello')
+
+
+
+
+#import turtle
+#t = turtle.Turtle()
+
+t.home()
+
+
+t.clear()
+
+
+
+
+
+for j in range(4):
+
+
+  for i in range(4):
+
+
+    t.forward(200)
+
+
+    t.left(90)
+
+
+  t.left(-90)
+
+
+
+print('hello')
+
+
+#import turtle
+
+
+#t = turtle.Turtle()
+
+
+
+
+
+t.home()
+
+
+t.clear()
+
+
+
+
+
+for j in range(2):
+
+
+  for i in range(4):
+
+
+    t.forward(100)
+
+
+    t.left(90)
+
+
+
+  
+
+t.left(90)
+
+
+  t.forward(120)
+
+
+
+  
+
+for i in range(6):
+
+
+    t.forward(100)
+
+
+    t.forward(-100)
+
+
+    t.left(-90)
+
+
+    t.forward(20)
+
+
+    t.left(90)
+
+
+
+  
+
+t.forward(-120)
+
+
+  t.left(-90)
+
+
+  t.forward(-240)
+
+print('hello')
+
+
+
+
+def rect(x, y, a):
+
+
+  t.up()
+
+
+  t.home()
+
+
+  t.forward(x)
+
+
+  t.left(90)
+
+
+  t.forward(y)
+
+
+  t.down()
+
+
+  for i in range(4):
+
+
+    t.forward(a)
+
+
+    t.left(-90)
+
+
+
+
+
+def yline(x, y, a):
+
+
+  t.up()
+
+
+  t.home()
+
+
+  t.forward(x)
+
+
+  t.left(90)
+
+
+  t.forward(y)
+
+
+  t.down()
+
+
+  t.forward(a)
+
